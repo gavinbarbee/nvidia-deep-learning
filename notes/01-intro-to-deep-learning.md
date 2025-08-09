@@ -48,6 +48,7 @@
 
 ## **Code snippets I want to reuse**
 
+```python
 # Set device (GPU if available)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -62,6 +63,7 @@ model = nn.Sequential(
     nn.Linear(hidden_size, output_size)
 ).to(device)
 
+```
 ---
 
 ## **My creative takeaways**
